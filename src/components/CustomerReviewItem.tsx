@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function CustomerReviewItem({ icon, image, name, title, children }) {
+export default function CustomerReviewItem({ icon, image, name, title, children }: any) {
   return (
     <div>
       <div className="max-w-[305px] min-h-[205px] p-5 rounded-2xl bg-[#F5F5F5] relative">

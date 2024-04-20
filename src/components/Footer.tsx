@@ -13,7 +13,7 @@ import { FaInstagram } from "react-icons/fa";
 export default function Footer() {
   const [email, setEmail] = useState("");
 
-  function handleSubmit(ev) {
+  function handleSubmit(ev: any) {
     ev.preventDefault();
     if (email.trim() === "") return;
     toast.success("Thank you for subscribing.");
@@ -56,7 +56,7 @@ export default function Footer() {
           </div>
           <div className="mt-8 flex gap-[26px]">
             <Image src={footer2} alt="shield with a planet" className="self-start" />
-            <p className="max-w-32 text-xs font-extrabold">Застраховка "Отговорност на туроператора"</p>
+            <p className="max-w-32 text-xs font-extrabold">Застраховка &quot;Отговорност на туроператора&quot;</p>
           </div>
           <div className="max-w-[120px] mt-12 text-xs text-[#919191] leading-5">
             <p>All rights reserved.</p>

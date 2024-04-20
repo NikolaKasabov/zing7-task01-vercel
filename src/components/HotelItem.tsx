@@ -11,7 +11,7 @@ import slider3 from "../../public/images/slider3.png";
 import { useEffect, useRef } from "react";
 
 export default function HotelItem() {
-  function LeftArrow({ className, style, onClick }) {
+  function LeftArrow({ className, style, onClick }: any) {
     return (
       <button onClick={onClick}>
         <FaChevronLeft className={className} style={{ ...style, color: "black" }} />
@@ -19,7 +19,7 @@ export default function HotelItem() {
     );
   }
 
-  function RightArrow({ className, style, onClick }) {
+  function RightArrow({ className, style, onClick }: any) {
     return (
       <button onClick={onClick}>
         <FaChevronRight className={className} style={{ ...style, color: "black" }} />
@@ -37,7 +37,7 @@ export default function HotelItem() {
     nextArrow: <RightArrow />,
   };
 
-  const wrapper = useRef();
+  const wrapper: any = useRef();
 
   useEffect(() => {
     function handleResize() {
@@ -54,6 +54,7 @@ export default function HotelItem() {
     }
 
     addEventListener("resize", handleResize);
+    handleResize();
 
     return () => removeEventListener("resize", handleResize);
   }, []);

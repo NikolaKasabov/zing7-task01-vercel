@@ -1,6 +1,6 @@
 import { GoCalendar } from "react-icons/go";
 
-export default function ProgramItem({ hasLeftBorder, title1, title2, children }) {
+export default function ProgramItem({ hasLeftBorder, title1, title2, children }: any) {
   return (
     <article className="max-w-[412px] mt-9">
       <div className="flex gap-3">
