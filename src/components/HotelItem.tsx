@@ -54,7 +54,7 @@ export default function HotelItem() {
 
     const interval = setInterval(() => {
       handleResize();
-    }, 500);
+    }, 100);
 
     addEventListener("resize", handleResize);
     handleResize();
