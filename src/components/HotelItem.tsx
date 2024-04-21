@@ -42,7 +42,6 @@ export default function HotelItem() {
   useEffect(() => {
     function handleResize() {
       const windowWidth = window.innerWidth;
-      console.log(windowWidth);
 
       if (wrapper.current) {
         if (windowWidth < 750) {
