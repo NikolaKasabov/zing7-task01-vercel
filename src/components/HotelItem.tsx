@@ -53,10 +53,17 @@ export default function HotelItem() {
       }
     }
 
+    const interval = setInterval(() => {
+      handleResize();
+    }, 500);
+
     addEventListener("resize", handleResize);
     handleResize();
 
-    return () => removeEventListener("resize", handleResize);
+    return () => {
+      removeEventListener("resize", handleResize);
+      clearInterval(interval);
+    };
   }, []);
 
   return (

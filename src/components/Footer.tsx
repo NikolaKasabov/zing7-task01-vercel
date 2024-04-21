@@ -47,7 +47,7 @@ export default function Footer() {
 
       <div className="h-[1px] bg-white"></div>
 
-      <div className="max-w-[1292px] mx-auto px-5 pb-[50px] text-[17px] flex flex-wrap gap-x-[90px]             max-sm:justify-center">
+      <div className="max-w-[1292px] mx-auto px-5 pb-[50px] text-[17px] flex flex-wrap gap-x-[90px] max-sm:justify-center">
         <div className="pt-5">
           <Image src={logo} alt="logo" />
           <div className="mt-10 flex gap-[13px]">
