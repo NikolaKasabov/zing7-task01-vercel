@@ -52,7 +52,7 @@ export default function Footer() {
           <Image src={logo} alt="logo" />
           <div className="mt-10 flex gap-[13px]">
             <Image src={footer1} alt="map of Bulgaria" className="self-start" />
-            <p className="max-w-32 text-xs font-extrabold">Лиценз, удостоверение за регистрация № 05236</p>
+            <p className="max-w-32 text-xs font-extrabold">Лиценз, удостоверение за регистрация № 00000</p>
           </div>
           <div className="mt-8 flex gap-[26px]">
             <Image src={footer2} alt="shield with a planet" className="self-start" />
@@ -68,20 +68,20 @@ export default function Footer() {
           <h3 className="font-extrabold">Контакти</h3>
           <ul className="mt-[23px]">
             <li>
-              <p>1111 София, България,</p>
-              <p>ул. Христо Белчев 34</p>
+              <p>1000 София, България,</p>
+              <p>ул. Христо Ботев 345</p>
             </li>
             <li className="mt-2">
-              <p>+359 884 47 30 34 // мобилен</p>
+              <p>+359 888 11 11 11 // мобилен</p>
             </li>
             <li className="mt-2">
-              <p>+359 2 980 44 59 // офис</p>
+              <p>+359 2 111 11 11 // офис</p>
             </li>
             <li className="mt-2">
-              <p>+359 2 980 41 05 // факс</p>
+              <p>+359 2 111 11 11 // факс</p>
             </li>
             <li className="mt-2">
-              <p>mistral@mistralbg.com</p>
+              <p>емаил@емаил.com</p>
             </li>
             <li className="mt-2">
               <p>Понеделник - Петък</p>
