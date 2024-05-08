@@ -5,8 +5,7 @@ import "./globals.css";
 const inter = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Mistral Travel & Events",
-  description: "Travel agency website",
+  title: "Travels & Events",
 };
 
 export default function RootLayout({
